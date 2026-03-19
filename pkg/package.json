@@ -1,0 +1,15 @@
+{
+  "name": "plaxel",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "plaxel_bg.wasm",
+    "plaxel.js",
+    "plaxel.d.ts"
+  ],
+  "main": "plaxel.js",
+  "types": "plaxel.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
